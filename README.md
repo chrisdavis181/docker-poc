@@ -1,0 +1,1 @@
+This project is part of a POC for running automated tests inside a containerized environment.

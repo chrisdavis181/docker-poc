@@ -1,0 +1,7 @@
+version: "3"
+services: 
+  asics-automation-pytest:
+    build: .
+    container_name: asics-automation-pytest
+    command: pytest
+    
