@@ -1,7 +1,8 @@
 version: "3"
 services: 
-  asics-automation-pytest:
+  asics-automation-service:
     build: .
+    platform: linux/amd64
     container_name: asics-automation-pytest
-    command: pytest
+    command: pytest --headless
     
